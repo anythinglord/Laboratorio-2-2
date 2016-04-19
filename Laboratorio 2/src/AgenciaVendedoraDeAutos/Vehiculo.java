@@ -1,6 +1,6 @@
 package AgenciaVendedoraDeAutos;
 
-public class Vehiculo{
+public abstract class Vehiculo{
     protected String tipo;
     protected int noSerie;
     protected double precio;
