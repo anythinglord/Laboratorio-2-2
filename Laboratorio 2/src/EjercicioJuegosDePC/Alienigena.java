@@ -1,6 +1,6 @@
 package EjercicioJuegosDePC;
 
-public class Alienigena {
+public abstract class Alienigena {
     private String idioma;
     private String piel;
     private String nombre;
