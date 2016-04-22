@@ -1,6 +1,6 @@
 package EjercicioDelBanco;
 
-public class Cuenta {
+public abstract class Cuenta {
     protected int noCuenta;
     protected String nombre;
     protected double saldo;
