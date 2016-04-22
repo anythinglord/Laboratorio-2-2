@@ -18,7 +18,7 @@ public class CuentaAhorros extends Cuenta{
         } return false;
     }
 
-    public CuentaAhorros(double interes, int[] fecha, int saldoInicial, String nombre, int noCuenta) {
+    public CuentaAhorros(double interes, int[] fecha, double saldoInicial, String nombre, int noCuenta) {
         this.interes = interes;
         this.fechaDeVencimiento = fecha;
         this.saldo = saldoInicial;
