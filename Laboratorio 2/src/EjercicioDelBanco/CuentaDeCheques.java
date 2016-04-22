@@ -24,4 +24,13 @@ public class CuentaDeCheques extends Cuenta{
             return true;
         } return false;
     }
+    
+    
+    public CuentaDeCheques(double comisionCheq, double comisionSaldoI,double saldoInicial, String nombre, int noCuenta){
+        this.comisionChequera = comisionCheq;
+        this.comisionSaldoIns = comisionSaldoI;
+        this.saldo = saldoInicial;
+        this.nombre = nombre;
+        this.noCuenta = noCuenta;
+    }
 }
